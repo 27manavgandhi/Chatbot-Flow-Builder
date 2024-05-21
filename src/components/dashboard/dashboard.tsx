@@ -70,7 +70,7 @@ export default function Dashboard() {
                 padding: "0 100px",
               }}
             >
-              <Text p="md">Flow Builder</Text>
+              <Text p="md">Chatbot Flow Builder</Text>
               <SaveButton />
             </div>
           </Header>
