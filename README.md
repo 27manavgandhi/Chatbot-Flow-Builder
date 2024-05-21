@@ -4,13 +4,6 @@
 
 In this task, we will build a simple Chatbot flow builder using React, ensuring the code is extensible to easily add new features in the future. A chatbot flow is created by connecting multiple messages together to define the order of execution.
 
-## Note
-
-- Use [React Flow](https://reactflow.dev/) for the flow builder.
-- You are free to use any other library on top of React Flow.
-- You can use either JavaScript or TypeScript for this task.
-- Add comments to explain your code.
-
 ## Features
 
 1. **Text Node**
@@ -19,7 +12,7 @@ In this task, we will build a simple Chatbot flow builder using React, ensuring 
     - Nodes are added to the flow by dragging and dropping a Node from the Nodes Panel.
   
 2. **Nodes Panel**
-    - This panel houses all kinds of Nodes that our Flow Builder supports.
+    - This panel houses all kinds of Nodes that our Chatbot Flow Builder supports.
     - Currently, there is only a Message Node, but we will be adding more types of Nodes in the future, so make this section extensible.
 
 3. **Edge**
@@ -34,9 +27,6 @@ In this task, we will build a simple Chatbot flow builder using React, ensuring 
     - Can have **more than one edge** connecting to a target handle.
 
 6. **Settings Panel**
-    
-    
-    
     - The Settings Panel will replace the Nodes Panel when a Node is selected.
     - It has a text field to edit the text of the selected Text Node.
 
